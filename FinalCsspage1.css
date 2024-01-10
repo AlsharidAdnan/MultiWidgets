@@ -377,7 +377,7 @@ tbody tr:nth-child(even) {
 
 .btn5 {
 
-    border: 1px solid #087f5b;
+    border: 1px solid #818483;
     height: 48px;
     width: 48px;
     border-radius: 50%;
@@ -387,10 +387,17 @@ tbody tr:nth-child(even) {
 
 .btn5:hover {
     background-color: #ffffff;
+    cursor: not-allowed;
 }
 
 .btn5:hover .btn-icon {
-    stroke: #087f5b;
+    stroke: #818483;
+}
+
+.btn-icon5 {
+    height: 24px;
+    width: 24px;
+    stroke: #818483;
 }
 
 .btn-icon {
