@@ -14,6 +14,10 @@ html {
     width: 1200px;
 }
 
+.logo {
+    height: 2.2rem;
+}
+
 header {
     /* background-color: orangered; */
     height: 100vh;
@@ -263,8 +267,14 @@ h2 {
 
 
 .st {
-    padding-right: 40px;
-    margin-top: 25px;
+    border-radius: 4px;
+    background-color: #a75d5d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
 }
 
 table, th, td {
